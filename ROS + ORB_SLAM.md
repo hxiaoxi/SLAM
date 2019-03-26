@@ -4,7 +4,7 @@
 
 环境：ubuntu16.04 + ROS kinetic
 
-![](https://github.com/hxiaoxi/SLAM/blob/master/image/1.png?raw=true)
+![](https://github.com/hxiaoxi/SLAM/blob/master/image/1.png)
 
 ### 一、ROS安装
 
