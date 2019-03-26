@@ -4,7 +4,7 @@
 
 环境：ubuntu16.04 + ROS kinetic
 
-![](https://github.com/hxiaoxi/SLAM/blob/master/image/1.png)
+
 
 ### 一、ROS安装
 
@@ -103,7 +103,7 @@ Mono后需要跟两个参数，第一个是ORB vocabulary，第二个xxx.yaml需
 
 运行后截图：
 
-![](file:///C:/Users/hxx13/AppData/Local/Temp/msohtmlclip1/01/clip_image001.png)
+![](https://github.com/hxiaoxi/SLAM/blob/master/image/1553561901610.png)
 
 此时因为还没有视频输入，左边的黑框提示“waiting for images”，右边的白框是SLAM构建的轨迹图。
 
@@ -111,7 +111,7 @@ Mono后需要跟两个参数，第一个是ORB vocabulary，第二个xxx.yaml需
 
 在新的终端运行rosnode list和rostopic list和rostopic info /camera/image_raw
 
-![](file:///C:/Users/hxx13/AppData/Local/Temp/msohtmlclip1/01/clip_image002.png)
+![](https://github.com/hxiaoxi/SLAM/blob/master/image/1553561917730.png)
 
 可以看到当前运行的节点和话题，ORB_SLAM2订阅了/camera/image_raw，但是这个话题还没有发布者，即没有视频来源，接下来就需要在ROS上用节点发布视频到/camera/image_raw上。
 
@@ -147,7 +147,7 @@ video_stream提供了各种方法的launch文件，用来便捷地启动节点�
 
 在终端运行roslaunch video_stream_opencv rtsp_stream.launch，就开始实时重建了。
 
-![](file:///C:/Users/hxx13/AppData/Local/Temp/msohtmlclip1/01/clip_image003.png)
+![](https://github.com/hxiaoxi/SLAM/blob/master/image/1553561933254.png)
 
  
 
@@ -155,7 +155,7 @@ video_stream提供了各种方法的launch文件，用来便捷地启动节点�
 
 再运行rostopic info /camera/image_raw，结果和预期一样，发布者和订阅者对应上了。
 
-![](file:///C:/Users/hxx13/AppData/Local/Temp/msohtmlclip1/01/clip_image004.png)
+![](https://github.com/hxiaoxi/SLAM/blob/master/image/1553561941808.png)
 
  
 
