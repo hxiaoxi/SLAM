@@ -4,7 +4,7 @@
 
 环境：ubuntu16.04 + ROS kinetic
 
-
+![](SLAM/image/1.png)
 
 ### 一、ROS安装
 
