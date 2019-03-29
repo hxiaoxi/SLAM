@@ -41,7 +41,7 @@ pip3install torchvision
 
 该程序为读入本机的avi视频数据进行检测,好像只支持avi，因为我转了文件格式，提供一个转视频格式的有用网站:<https://www.onlinevideoconverter.com/media-converter>.
 
-![2](SLAM/image/2.png)
+![2](https://github.com/hxiaoxi/SLAM/blob/master/image/2.png)
 
 > python cam_demo.py
 
@@ -51,7 +51,7 @@ pip3install torchvision
 
 这里我使用手机连接电脑WiFi，效果如下：
 
-![3](SLAM/image/3.png)
+![3](https://github.com/hxiaoxi/SLAM/blob/master/image/3.png)
 
 #### Linux下
 
@@ -78,7 +78,7 @@ requirements：
 
 安装好pip3之后，往后所有的关于pip的命令都采用pip3进行。同样进入pytorch管网，选择合适选项
 
-![4](SLAM/image/4.png)
+![4](https://github.com/hxiaoxi/SLAM/blob/master/image/4.png)
 
 运行
 
