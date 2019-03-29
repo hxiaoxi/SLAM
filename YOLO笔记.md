@@ -17,7 +17,7 @@
 
 首先安装cuda9.0+cudnn（安装对应版本，我的电脑是940MX，具体请百度），然后pytorch，官网<https://pytorch.org/> 直接选择对应版本
 
-![1](SLAM/image/1.png)
+![1](https://github.com/hxiaoxi/SLAM/blob/master/image/1.png)
 
 执行命令
 
