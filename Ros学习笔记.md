@@ -161,3 +161,48 @@ request-reply方式，需要时才调用 多对一
 | rosparam load file_name           | 从文件加载参数 |
 | rosparam delete param_key         | 删除参数    |
 
+### Action
+
+Servie-Client 架构 双向通信，api传递
+
+## 常用包
+
+### Gazbo
+
+模拟仿真
+
+### Rviz
+
+可视化工具
+
+### Rqt
+
+基于qt的可视化工具，效果更好
+
+### Rosbag
+
+对软件包的操作集合函数库
+
+### Rosbridge
+
+Ros系统与其他系统的信息传递
+
+### Moveit！
+
+机器人相关包括运动规划，操纵，3D感知，运动导航等
+
+## Roscpp
+
+ros与c++
+
+暂略
+
+## Rospy
+
+ros与python
+
+暂略
+
+## TF
+
+urdf等等 挺重要 但暂略
